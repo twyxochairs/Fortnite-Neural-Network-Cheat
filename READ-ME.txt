@@ -1,0 +1,13 @@
+/*
+Old repo: https://github.com/understatements/Fortnite-Neural-Network-Cheat
+
+Hello and welcome. This is the src of a once paid AI Cheat. I (https://twyxo.org) made some changes and I also changed
+some stuff in this src. I also deletd some functions/ made them not working so you will need a tiny knowledge of C++.
+If you want full src, pay me 5$ [discord: twyxo.org]. For help join my discord server: https://discord.gg/72M2h8DeGQ
+If you sell this your gay.
+Detected on normal Fortnite -> Use on OG Fortnite (Era, Nova, etc.)
+
+For the dlls join https://discord.gg/72M2h8DeGQ
+
+
+*/

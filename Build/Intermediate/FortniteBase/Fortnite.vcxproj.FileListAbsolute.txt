@@ -1,0 +1,12 @@
+C:\Users\konra\Desktop\SilentWare SoftAim\Build\Network.cfg
+C:\Users\konra\Desktop\SilentWare SoftAim\Build\Network.weights
+C:\Users\konra\Desktop\SilentWare SoftAim Nova\Build\Network.cfg
+C:\Users\konra\Desktop\SilentWare SoftAim Nova\Build\Network.weights
+C:\Users\Shelliy\Desktop\OMG\Fortnite Neural Network\Build\Network.cfg
+C:\Users\Shelliy\Desktop\OMG\Fortnite Neural Network\Build\Network.weights
+C:\Users\Palermo\Documents\Coding\Fortnite Neural Network\Build\Network.cfg
+C:\Users\Palermo\Documents\Coding\Fortnite Neural Network\Build\Network.weights
+C:\Users\Twyxo\Desktop\up\Fortnite Neural Network\Build\Network.cfg
+C:\Users\Twyxo\Desktop\up\Fortnite Neural Network\Build\Network.weights
+C:\Users\Twyxo\Desktop\Fortnite Neural Network\Build\Network.cfg
+C:\Users\Twyxo\Desktop\Fortnite Neural Network\Build\Network.weights

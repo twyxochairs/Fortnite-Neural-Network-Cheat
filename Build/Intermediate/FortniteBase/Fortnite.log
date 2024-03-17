@@ -1,0 +1,561 @@
+﻿  Source.cpp
+  Note: including file: C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Includes.h
+  Note: including file:  C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Utilities/FNXor.h
+  Note: including file:   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\immintrin.h
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\wmmintrin.h
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\nmmintrin.h
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\smmintrin.h
+  Note: including file:       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\tmmintrin.h
+  Note: including file:        C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\pmmintrin.h
+  Note: including file:         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\emmintrin.h
+  Note: including file:          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xmmintrin.h
+  Note: including file:           C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\mmintrin.h
+  Note: including file:           C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\malloc.h
+  Note: including file:            C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt.h
+  Note: including file:             C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime.h
+  Note: including file:              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\sal.h
+  Note: including file:               C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\concurrencysal.h
+  Note: including file:              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vadefs.h
+  Note: including file:            C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_malloc.h
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\zmmintrin.h
+  Note: including file:   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\cstdint
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\yvals_core.h
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xkeycheck.h
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\stdint.h
+  Note: including file:   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\cstddef
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stddef.h
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xtr1common
+  Note: including file:   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\utility
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\initializer_list
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\type_traits
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\concepts
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_new.h
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\compare
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\cstdlib
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\math.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdlib.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_search.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wstdlib.h
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\limits.h
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\Windows.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winapifamily.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winpackagefamily.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\sdkddkver.h
+  Note: including file:   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\excpt.h
+  Note: including file:   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\stdarg.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\windef.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\specstrings.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\specstrings_strict.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\specstrings_undef.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\driverspecs.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\sdv_driverspecs.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\ctype.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wctype.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\kernelspecs.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\basetsd.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\guiddef.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_memory.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_memcpy_s.h
+  Note: including file:          C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\errno.h
+  Note: including file:          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_string.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wstring.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack4.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack4.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack4.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack2.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack2.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack2.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack8.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack1.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack1.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\apiset.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ktmtypes.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winbase.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\apisetcconv.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\minwinbase.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\apiquery2.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\processenv.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\fileapifromapp.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\fileapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\debugapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\utilapiset.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\handleapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\errhandlingapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\fibersapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\namedpipeapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\profileapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\heapapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ioapiset.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\synchapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\interlockedapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\processthreadsapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\sysinfoapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\memoryapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\enclaveapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\threadpoollegacyapiset.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\threadpoolapiset.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\jobapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\jobapi2.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wow64apiset.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\libloaderapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\securitybaseapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\namespaceapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\systemtopologyapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\processtopologyapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\securityappcontainer.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\realtimeapiset.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\timezoneapi.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wingdi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack1.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack2.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack2.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack4.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack4.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack2.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\tvout.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnls.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\datetimeapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\stringapiset.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnls.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wincon.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wincontypes.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\consoleapi.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\consoleapi2.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\consoleapi3.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winver.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\verrsrc.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winreg.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\reason.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnetwk.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\wnnc.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\stralign.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winsvc.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\mcx.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\imm.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ime_cmodes.h
+  Note: including file:  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\filesystem
+  Note: including file:   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\algorithm
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xmemory
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\limits
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\cfloat
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\float.h
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\climits
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\cwchar
+  Note: including file:       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\cstdio
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdio.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wstdio.h
+  Note: including file:          C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_stdio_config.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\wchar.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wconio.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wdirect.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wio.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_share.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wprocess.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_wtime.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\sys/stat.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\sys/types.h
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\intrin0.h
+  Note: including file:       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\intrin0.inl.h
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\new
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\exception
+  Note: including file:       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\yvals.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\crtdbg.h
+  Note: including file:         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_new_debug.h
+  Note: including file:        C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\crtdefs.h
+  Note: including file:        C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\use_ansi.h
+  Note: including file:       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_exception.h
+  Note: including file:        C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\eh.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_terminate.h
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xatomic.h
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_iter_core.hpp
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\cstring
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\tuple
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\optional
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xsmf_control.h
+  Note: including file:   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\chrono
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_chrono.hpp
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ctime
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\time.h
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ratio
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xtimec.h
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\system_error
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_system_error_abi.hpp
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\cerrno
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\stdexcept
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring
+  Note: including file:       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_sanitizer_annotate_container.hpp
+  Note: including file:       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iosfwd
+  Note: including file:       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xpolymorphic_allocator.h
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xcall_once.h
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xerrc.h
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\atomic
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xatomic_wait.h
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xthreads.h
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xfilesystem_abi.h
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_tzdb.hpp
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\cmath
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\forward_list
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\istream
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ostream
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ios
+  Note: including file:       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xlocnum
+  Note: including file:        C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iterator
+  Note: including file:        C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\streambuf
+  Note: including file:         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xiosbase
+  Note: including file:          C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\share.h
+  Note: including file:          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xlocale
+  Note: including file:           C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory
+  Note: including file:            C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\typeinfo
+  Note: including file:             C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_typeinfo.h
+  Note: including file:           C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xfacet
+  Note: including file:           C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xlocinfo
+  Note: including file:            C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_xlocinfo_types.hpp
+  Note: including file:            C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\cctype
+  Note: including file:            C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\clocale
+  Note: including file:             C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\locale.h
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_filebuf.hpp
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_print.hpp
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\format
+  Note: including file:       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_format_ucd_tables.hpp
+  Note: including file:       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\bit
+  Note: including file:        C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_bit_utils.hpp
+  Note: including file:       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\charconv
+  Note: including file:        C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xbit_ops.h
+  Note: including file:        C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xcharconv.h
+  Note: including file:        C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xcharconv_ryu.h
+  Note: including file:         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xcharconv_ryu_tables.h
+  Note: including file:        C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xcharconv_tables.h
+  Note: including file:       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\locale
+  Note: including file:        C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xlocbuf
+  Note: including file:        C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xlocmes
+  Note: including file:        C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xlocmon
+  Note: including file:        C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xloctime
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\sstream
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector
+  Note: including file:    C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iomanip
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\shellapi.h
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\TlHelp32.h
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\shlwapi.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\objbase.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpc.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack8.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcdce.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcdcep.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\rpcnsi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcnterr.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcasync.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack8.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\rpcndr.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack8.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\rpcnsip.h
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\rpcsal.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack8.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\combaseapi.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack8.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\wtypesbase.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\guiddef.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\unknwnbase.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ole2.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack8.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\oleauto.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack8.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\oaidl.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\objidl.h
+  Note: including file:          C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\unknwn.h
+  Note: including file:           C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\wtypes.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\coml2api.h
+  Note: including file:        C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\propidlbase.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\oleidl.h
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\objidlbase.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\guiddef.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\cguid.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\urlmon.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\servprov.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\msxml.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\propidl.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\shtypes.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack1.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack1.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack8.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack1.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack8.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\strsafe.h
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\assert.h
+  Note: including file:  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\iostream
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\signal.h
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\Dwmapi.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\uxtheme.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\commctrl.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\prsht.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack8.h
+  Note: including file:      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack1.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack1.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack1.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack1.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack1.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dpa_dsa.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack8.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack8.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\pshpack1.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\poppack.h
+  Note: including file:  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\fstream
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\Psapi.h
+  Note: including file:  C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3dx9.h
+  Note: including file:   C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3d9.h
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3d9types.h
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3d9caps.h
+  Note: including file:   C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3dx9math.h
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3dx9.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\math.h
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3dx9math.inl
+  Note: including file:   C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3dx9core.h
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3dx9.h
+  Note: including file:   C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3dx9xof.h
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3dx9.h
+  Note: including file:   C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3dx9mesh.h
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3dx9.h
+  Note: including file:   C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3dx9shader.h
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3dx9.h
+  Note: including file:   C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3dx9effect.h
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3dx9.h
+  Note: including file:   C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3dx9tex.h
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3dx9.h
+  Note: including file:   C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3dx9shape.h
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3dx9.h
+  Note: including file:   C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\d3dx9anim.h
+  Note: including file:  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\thread
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\process.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_startup.h
+  Note: including file:     C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\math.h
+  Note: including file:     C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime_startup.h
+  Note: including file:   C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\stop_token
+  Note: including file:  C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Utilities/Includes/IncludeOpenCV.h
+  Note: including file:   C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/opencv.hpp
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/opencv_modules.hpp
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/cvdef.h
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/version.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/hal/interface.h
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\core\cv_cpu_dispatch.h
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\intrin.h
+  Note: including file:       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\setjmp.h
+  Note: including file:       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ammintrin.h
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\array
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/base.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/opencv_modules.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/cvstd.hpp
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\core\cvstd_wrapper.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/neon_utils.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/vsx_utils.hpp
+  Note: including file:       C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\assert.h
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/check.hpp
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/base.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/traits.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/matx.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/saturate.hpp
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/fast_math.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/types.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/mat.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/bufferpool.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/mat.inl.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/persistence.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/operations.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/cvstd.inl.hpp
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\complex
+  Note: including file:       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ymath.h
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/utility.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core.hpp
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\functional
+  Note: including file:       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\unordered_map
+  Note: including file:        C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xhash
+  Note: including file:         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\list
+  Note: including file:         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xnode_handle.h
+  Note: including file:      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\mutex
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/optim.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/ovx.hpp
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/calib3d.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/features2d.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/opencv_modules.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/flann/miniflann.hpp
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/flann/defines.h
+  Note: including file:        C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\config.h
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/affine.hpp
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/dnn.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/dnn/dnn.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/async.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\dnn\../dnn/version.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/dnn/dict.hpp
+  Note: including file:       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\map
+  Note: including file:        C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xtree
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/dnn/dnn.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/dnn/layer.hpp
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/dnn.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/dnn/dnn.inl.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/dnn/utils/inference_engine.hpp
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\dnn\utils\../dnn.hpp
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/flann.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/flann/flann_base.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\general.h
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\matrix.h
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\params.h
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\any.h
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\saving.h
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\nn_index.h
+  Note: including file:        C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\result_set.h
+  Note: including file:         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\set
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\all_indices.h
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\kdtree_index.h
+  Note: including file:        C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\dynamic_bitset.h
+  Note: including file:         C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\dist.h
+  Note: including file:        C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\heap.h
+  Note: including file:        C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\allocator.h
+  Note: including file:        C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\random.h
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\kdtree_single_index.h
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\kmeans_index.h
+  Note: including file:        C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\logger.h
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\composite_index.h
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\linear_index.h
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\hierarchical_clustering_index.h
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\lsh_index.h
+  Note: including file:        C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\lsh_table.h
+  Note: including file:         C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\math.h
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\autotuned_index.h
+  Note: including file:        C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\ground_truth.h
+  Note: including file:        C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\index_testing.h
+  Note: including file:         C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\timer.h
+  Note: including file:        C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\flann\sampling.h
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/highgui.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/imgcodecs.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/videoio.hpp
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/imgproc.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\./imgproc/segmentation.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/imgproc.hpp
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/ml.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/ml/ml.inl.hpp
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/objdetect.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/objdetect/detection_based_tracker.hpp
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/photo.hpp
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/stitching.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/stitching/warpers.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/stitching/detail/warpers.hpp
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/cuda.hpp
+  Note: including file:        C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/cuda_types.hpp
+  Note: including file:        C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/cuda.inl.hpp
+  Note: including file:         C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/cuda.hpp
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/opencv_modules.hpp
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\stitching\detail\warpers_inl.hpp
+  Note: including file:        C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\stitching\detail\warpers.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/stitching/detail/matchers.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/opencv_modules.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/stitching/detail/motion_estimators.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\stitching\detail\util.hpp
+  Note: including file:       C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\stitching\detail\util_inl.hpp
+  Note: including file:        C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\queue
+  Note: including file:         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\deque
+  Note: including file:         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\ranges
+  Note: including file:          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\__msvc_int128.hpp
+  Note: including file:          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\span
+  Note: including file:          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\string_view
+  Note: including file:        C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\stitching\detail\util.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2\stitching\detail\camera.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/stitching/detail/exposure_compensate.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/stitching/detail/seam_finders.hpp
+  Note: including file:      C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/opencv_modules.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/stitching/detail/blenders.hpp
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/video.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/video/tracking.hpp
+  Note: including file:     C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/video/background_segm.hpp
+  Note: including file:   C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\OpenCV\Include\opencv2/core/ocl.hpp
+  Note: including file:  C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Utilities/Definitions.h
+  Note: including file:   C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Utilities\TypeDefinitions.h
+  Note: including file: C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Utilities/Includes/IncludeImGui.h
+  Note: including file:  C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Utilities\Includes\../../Modules/GUI/imgui.h
+  Note: including file:   C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Modules\GUI\../../Utilities/FNXor.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\assert.h
+  Note: including file:  C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Utilities\Includes\../../Modules/GUI/imgui_impl_win32.h
+  Note: including file:  C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Utilities\Includes\../../Modules/GUI/imgui_impl_dx9.h
+  Note: including file: C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\json.hpp
+  Note: including file:  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\valarray
+  Note: including file:  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\version
+  Note: including file:  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\cassert
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\assert.h
+  Note: including file:  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\numeric
+  Note: including file:  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\any
+  Note: including file: C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\utils.hpp
+  Note: including file:  C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\skStr.h
+  Note: including file: C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\UtilLib.h
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ProvExce.h
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\GenLex.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\Polarity.h
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\ObjPath.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\opathlex.h
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\OPathLex.h
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\CHString.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\tchar.h
+  Note: including file:    C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\mbstring.h
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\CHStrArr.h
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\CHPtrArr.h
+  Note: including file:   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\assert.h
+  Note: including file:  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\WbemTime.h
+  Note: including file: C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Utilities/FNXor.h
+  Note: including file: C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Modules/FNUtilities.h
+  Note: including file:  C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Modules\../Utilities/FNSettings.h
+  Note: including file: C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Modules/FNInterface.h
+  Note: including file:  C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Modules\FNDetector.h
+  Note: including file:   C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Resources\DirectX\Include\Xinput.h
+  Note: including file:   C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Modules\Mouse/RunMouse.h
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Modules\Mouse\Normal.h
+  Note: including file:    C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Modules\Mouse\BezierCurve.h
+  Note: including file:  C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Modules\GUI/Fonts/FNEmbeddedFonts.h
+  Note: including file: C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\Modules/FNReversal.h
+  Note: including file: C:\Users\Twyxo\Desktop\Fortnite Neural Network\Project\auth.hpp
+  Generating code
+  1340 of 4912 functions (27.3%) were compiled, the rest were copied from previous compilation.
+    976 functions were new in current compilation
+    28 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Fortnite.vcxproj -> C:\Users\Twyxo\Desktop\Fortnite Neural Network\Build\Fortnite.exe
