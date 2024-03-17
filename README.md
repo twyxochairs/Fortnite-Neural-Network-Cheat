@@ -3,9 +3,7 @@
 # For the full Source Code go to the release tab. Passowrd for the .zip file is in my discord: https://discord.gg/PdPQuxuVnB
 
 ### **What is this?**
-This is a public release of a once-paid neural network aimbot for Fortnite: Battle Royale made by **NOT** me. [I found this, old repo got deleted | Credits: https://github.com/understatements/Fortnite-Neural-Network-Cheat
-**showcase: https://www.youtube.com/watch?v=2DG2yNKpHRc**
-**For the dlls join my discord**
+This is a public release of a once-paid neural network aimbot for Fortnite: Battle Royale made by **NOT** me. [I found this, old repo got deleted | Credits: https://github.com/understatements/Fortnite-Neural-Network-Cheat | showcase: https://www.youtube.com/watch?v=2DG2yNKpHRc | For the dlls join my discord
 
 ### **Is it undetected and up-to-date?**
 As with any cheat, nothing is completely undetectable. **I do NOT recommend downloading the executable directly from the Releases page, as it has likely been detected already.** It is much safer to build the cheat yourself, which makes it unique and nearly undetectable.
