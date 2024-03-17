@@ -1,5 +1,7 @@
 # AI (neural-network external) Fortnite Cheat
 
+# For the full Source Code go to the release tab. Passowrd for the .zip file is in my discord: https://discord.gg/PdPQuxuVnB
+
 ### **What is this?**
 This is a public release of a once-paid neural network aimbot for Fortnite: Battle Royale made by me.
 
